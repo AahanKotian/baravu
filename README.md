@@ -375,7 +375,20 @@ Baravu development involves more than drawing glyphs. A functional Tigalari Unic
 
 FontLab provides the tools necessary to edit and maintain these components. By preserving the existing font structure, documenting changes, and testing the resulting font with actual Tigalari text, developers can continue improving Baravu while maintaining compatibility with Unicode-based digital text.
 
-### Resources
+### Resources## Credits and Acknowledgements
+
+This project builds upon the original Baravu Tulu Tigalari font project and acknowledges the work and contributions of its original developers.
+
+Special thanks to:
+
+- **Deepak Padukone** – [GitHub](https://github.com/deepakpadukone20)
+- **Prahlad Tantry** – [GitHub](https://github.com/PrahladTantry)
+
+Their work on the original project provides the foundation for this fork.
+
+This fork maintains attribution to the original contributors while introducing updated font naming and metadata under the Baravu name.
+
+**Original repository:** [OpenTuluFont/Baravu](https://github.com/OpenTuluFont/baravu)
 
 - [FontLab Tutorials](https://www.fontlab.com/fontlab-vi/tutorials/)
 - [Typography Basics](https://fonts.google.com/knowledge)
