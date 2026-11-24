@@ -89,7 +89,7 @@ Baravu/
 ├── README.md
 ├── LICENSE
 ├── fonts/
-│   ├── Baravu-renamed.ttf
+│   ├── Baravu.ttf
 │   └── previous-versions/
 ├── source/
 │   └── Baravu.vfc
