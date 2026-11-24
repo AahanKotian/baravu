@@ -1,5 +1,7 @@
 # Font Development with FontLab for Baravu
 
+<img width="1200" height="735" alt="image" src="https://github.com/user-attachments/assets/9f1f3d67-329d-4026-92ff-4fb9f5c1f595" />
+
 This guide documents the development, modification, and maintenance of the **Baravu Tulu Tigalari Unicode font** using FontLab.
 
 Unlike a font-development tutorial that starts with an empty project, this guide focuses on working with an existing TrueType font. It covers importing the font, editing glyphs, preserving Unicode character mappings, maintaining OpenType functionality, updating font metadata, testing, and exporting the finished font.
