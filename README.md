@@ -4,7 +4,7 @@ This guide documents the development, modification, and maintenance of the **Bar
 
 Unlike a font-development tutorial that starts with an empty project, this guide focuses on working with an existing TrueType font. It covers importing the font, editing glyphs, preserving Unicode character mappings, maintaining OpenType functionality, updating font metadata, testing, and exporting the finished font.
 
-The current modified font is distributed as `Baravu-renamed.ttf`. Its naming metadata has been updated from **Kudla Tigalari** to **Baravu**, while preserving the original glyph outlines and existing OpenType layout data.
+The current modified font is distributed as `Baravu.ttf`. It preserves the original glyphs of the OpenTuluFont Baravu file while being Unicode compatible.
 
 ## Table of Contents
 
