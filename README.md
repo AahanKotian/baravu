@@ -6,7 +6,7 @@ This guide documents the development, modification, and maintenance of the **Bar
 
 Unlike a font-development tutorial that starts with an empty project, this guide focuses on working with an existing TrueType font. It covers importing the font, editing glyphs, preserving Unicode character mappings, maintaining OpenType functionality, updating font metadata, testing, and exporting the finished font.
 
-The current modified font is distributed as `Baravu.ttf`. It preserves the original glyphs of the OpenTuluFont Baravu file while being Unicode compatible.
+The current modified font is distributed as `TuluBaravu.ttf`. It preserves the original glyphs of the OpenTuluFont Baravu file while being Unicode compatible.
 
 ## Table of Contents
 
@@ -49,7 +49,7 @@ Before beginning development, ensure that you have the following:
 
 Before editing Baravu, it is important to understand its existing structure.
 
-The current `Baravu-renamed.ttf` file contains:
+The current `Tulu.ttf` file contains:
 
 | Property | Value |
 |---|---|
@@ -77,7 +77,7 @@ These tables are important for scripts such as Tigalari, where character sequenc
 ## Setting Up the Project
 
 1. Launch FontLab.
-2. Open the existing `Baravu-renamed.ttf` file using **File > Open**.
+2. Open the existing `Tulu.ttf` file using **File > Open**.
 3. Inspect the glyph window and confirm that the existing glyphs have loaded.
 4. Inspect the font information and character mappings.
 5. Save a working copy in FontLab's native project format.
@@ -91,7 +91,7 @@ Baravu/
 ├── README.md
 ├── LICENSE
 ├── fonts/
-│   ├── Baravu.ttf
+│   ├── TuluBaravu.ttf
 │   └── previous-versions/
 ├── source/
 │   └── Baravu.vfc
@@ -291,7 +291,7 @@ Example:
 ```python
 from fontTools.ttLib import TTFont
 
-font = TTFont("Baravu-renamed.ttf")
+font = TTFont("TuluBaravu.ttf")
 
 print("Font tables:", font.keys())
 print("Glyph count:", len(font.getGlyphOrder()))
